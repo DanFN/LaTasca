@@ -1,0 +1,24 @@
+{
+  "name": "LaTasca",
+  "homepage": "https://github.com/DanFN/LaTasca",
+  "authors": [
+    "DanFN <josedaniel.sanchez@alumno.uttehuacan.edu.mx>"
+  ],
+  "description": "Proyecto de integradora para el restaurante-bar LA TASCA",
+  "main": "index.html",
+  "keywords": [
+    "la",
+    "tasca"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "boostrap#^3.3.7"
+  }
+}
