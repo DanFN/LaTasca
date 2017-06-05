@@ -19,19 +19,22 @@ body{
   background-color: #333;
     color: #9af7fe;
 }
+.footer .row{
+  padding-top: 20px;
+}
 
 @media only screen and (max-width: 991px){
   body{
-    margin-bottom: 230px;
+    margin-bottom: 380px;
   }
   .footer{
-    height: 350px;
+    height: 380px;
   }
 }
 .navbar-brand>img {
-  height: 100px;
+  height: auto;
   padding: 0px;
-  width: 100px;
+  width: 100%;
 }
 .parallax-section {
     width: 100%;
@@ -154,7 +157,7 @@ body{
 /***  -------  Parallax section 2  ------- ***/
 
 .parallax-image-2 {
-    background: url(../../images/parallax/people-collage.jpg) fixed;
+    background: url(../../../../img/latascafondo2.jpg) fixed;
     background-attachment: fixed; /* IE FIX */
 }
 
