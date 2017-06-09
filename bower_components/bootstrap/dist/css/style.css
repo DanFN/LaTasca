@@ -22,6 +22,9 @@ body{
 .footer .row{
   padding-top: 20px;
 }
+.container .row img{
+  margin: 30px;
+}
 
 @media only screen and (max-width: 991px){
   body{
@@ -29,6 +32,9 @@ body{
   }
   .footer{
     height: 380px;
+  }
+  .container .row img{
+    margin: 5px;
   }
 }
 .navbar-brand>img {
@@ -44,7 +50,7 @@ body{
 }
 
 .parallax-image-1 {
-    background: url(../../../../img/latascafondo.jpg);
+    background: url(../../../../img/fondos/fondo3.jpg);
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -157,8 +163,13 @@ body{
 /***  -------  Parallax section 2  ------- ***/
 
 .parallax-image-2 {
-    background: url(../../../../img/latascafondo2.jpg) fixed;
+    background: url(../../../../img/fondos/fondo3.jpg) fixed;
     background-attachment: fixed; /* IE FIX */
+}
+.parallax-image-3 {
+    background: url(../../../../img/fondos/latascafondo.jpg) fixed;
+    background-attachment: fixed; /* IE FIX */
+    height: 300px;
 }
 
 .parallax-section-overley {
